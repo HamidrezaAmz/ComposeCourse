@@ -1,4 +1,4 @@
-package com.example.composecourse.view.course_1.ui.theme
+package com.example.composecourse.view.course_4.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

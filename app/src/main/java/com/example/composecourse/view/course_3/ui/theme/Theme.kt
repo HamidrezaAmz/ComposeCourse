@@ -1,4 +1,4 @@
-package com.example.composecourse.view.course_1.ui.theme
+package com.example.composecourse.view.course_3.ui.theme
 
 import android.app.Activity
 import android.os.Build

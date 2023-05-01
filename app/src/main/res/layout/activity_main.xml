@@ -29,6 +29,18 @@
                 android:layout_height="wrap_content"
                 android:text="Course 2" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 4" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.core.widget.NestedScrollView>
