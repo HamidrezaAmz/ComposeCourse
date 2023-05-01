@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ComposeCourse"
         tools:targetApi="31">
         <activity
+            android:name=".view.course_2.Course2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_course2"
+            android:theme="@style/Theme.ComposeCourse" />
+        <activity
             android:name=".view.course_1.Course1Activity"
             android:exported="false"
             android:label="@string/title_activity_couser1"
