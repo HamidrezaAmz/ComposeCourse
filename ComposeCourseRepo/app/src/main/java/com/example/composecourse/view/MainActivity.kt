@@ -11,6 +11,7 @@ import com.example.composecourse.view.course_2.Course2Activity
 import com.example.composecourse.view.course_3.Course3Activity
 import com.example.composecourse.view.course_4.Course4Activity
 import com.example.composecourse.view.course_5.Course5Activity
+import com.example.composecourse.view.course_6.Course6Activity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         initListeners()
 
         // todo: just for dev, will be removed after developing
-        navigateToTargetActivity(Course5Activity())
+        navigateToTargetActivity(Course6Activity())
     }
 
     private fun initListeners() {
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         findViewById<AppCompatButton>(R.id.appCompatButton_course_3).setOnClickListener(this)
         findViewById<AppCompatButton>(R.id.appCompatButton_course_4).setOnClickListener(this)
         findViewById<AppCompatButton>(R.id.appCompatButton_course_5).setOnClickListener(this)
+        findViewById<AppCompatButton>(R.id.appCompatButton_course_6).setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -52,6 +54,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.appCompatButton_course_5 -> {
                 navigateToTargetActivity(Course5Activity())
+            }
+
+            R.id.appCompatButton_course_6 -> {
+                navigateToTargetActivity(Course6Activity())
             }
         }
     }

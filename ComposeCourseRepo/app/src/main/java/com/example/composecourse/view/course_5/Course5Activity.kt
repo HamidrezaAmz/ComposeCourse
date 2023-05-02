@@ -69,7 +69,7 @@ class Course5Activity : ComponentActivity() {
                         append("ompose!")
 
                     },
-                    fontSize = 26.sp,
+                    fontSize = 36.sp,
                     color = Color.White,
                     fontFamily = fontFamily,
                     fontWeight = FontWeight.Thin,
