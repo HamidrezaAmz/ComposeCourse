@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComposeCourse</string>
+    <string name="title_activity_couser1">Couser1Activity</string>
+    <string name="title_activity_course2">Course2Activity</string>
+    <string name="title_activity_course4">Course4Activity</string>
+    <string name="title_activity_course5">Course5Activity</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 5" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
