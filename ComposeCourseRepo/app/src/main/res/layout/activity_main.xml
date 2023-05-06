@@ -65,6 +65,12 @@
                 android:layout_height="wrap_content"
                 android:text="Course 8" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton_course_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course 9" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.core.widget.NestedScrollView>
